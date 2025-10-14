@@ -8,14 +8,16 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      workbox: {globPatterns: ["**/*.{html,css,js,ico,png,svg}"]},
       devOptions: {
         enabled: true
       },
       manifest: {
-        name: 'My Todo App',
-        short_name: 'TodoApp',
+        name: 'Alex App',
+        short_name: 'AlexApp',
         description: 'A simple to-do application',
         theme_color: '#ffffff',
+        background_color: '#ffffff',
         icons: [
           {
             src: 'icon-192x192.png',
