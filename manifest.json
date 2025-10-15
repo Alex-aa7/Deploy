@@ -3,6 +3,7 @@
   "short_name": "AlexApp",
   "description": "My PWA experiment",
   "start_url": ".",
+  "id": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
